@@ -1,0 +1,19 @@
+.navAdmin{
+  text-align: right;
+  ul{
+    margin:{
+      right:20px;
+      top:20px;
+    }
+    list-style: none;
+    li{
+      text-decoration: underline;
+      cursor: pointer;
+      color:black;
+
+      &:hover, &:focus, &:active{
+        opacity:0.8;
+      }
+    }
+  }
+}

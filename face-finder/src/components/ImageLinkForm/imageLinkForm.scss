@@ -1,0 +1,46 @@
+.imageLinkForm{
+
+  p{
+    font-size:24px;
+    line-height: 30px;
+    font-weight: 500;
+    margin:{
+      bottom:40px;
+    }
+  }
+  .formCont{
+    display: block;
+    margin:0 auto;
+    width:70%;
+
+
+    input, button{
+      display:inline-block;
+      height: 40px;
+    }
+
+    input{
+      width:65%;
+      padding:{
+        left:10px;
+      }
+    }
+    button{
+      width:25%;
+      border: 0;
+      padding:{
+        top:15px;
+        bottom:15px;
+      }
+      height:44px;
+      background-color: deeppink;
+      font-weight: 700;
+      text-transform: uppercase;
+
+      &:hover, &:focus, &:active{
+        background-color: black;
+        color:white;
+      }
+    }
+  }
+}
