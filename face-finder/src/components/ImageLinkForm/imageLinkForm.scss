@@ -1,44 +1,62 @@
 .imageLinkForm{
+  margin:0 auto;
+  background-color:rgba(255,255,0,);
+  max-width:700px;
+  padding:{
+    top:50px;
+    bottom:50px;
+    left:20px;
+    right:20px;
+  }
+  border-radius: 30px;
+  box-shadow: 0 0 5px 0 #282c34;
 
   p{
     font-size:24px;
     line-height: 30px;
     font-weight: 500;
     margin:{
+      top:0;
       bottom:40px;
     }
   }
   .formCont{
-    display: block;
     margin:0 auto;
     width:70%;
+    display: flex;
+    vertical-align: top;
 
 
     input, button{
-      display:inline-block;
-      height: 40px;
+      align-items: start;
+      height: 47px;
+      border:0;
     }
 
     input{
+      background-color: black;
+      font-weight: 700;
+      color:white;
       width:65%;
       padding:{
+        top:0;
+        bottom:0;
         left:10px;
+        right:5px;
       }
     }
     button{
       width:25%;
-      border: 0;
       padding:{
         top:15px;
         bottom:15px;
       }
-      height:44px;
       background-color: deeppink;
       font-weight: 700;
       text-transform: uppercase;
 
       &:hover, &:focus, &:active{
-        background-color: black;
+        background-color: dodgerblue;
         color:white;
       }
     }

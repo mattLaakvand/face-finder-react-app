@@ -8,7 +8,7 @@ const ImageLinkForm = () => {
             <Row>
                 <Col xs={'12'}>
                     <div className="imageLinkForm">
-                        <p>{'This Magic Brain wil detect faces in your pictures. Give it a try'}</p>
+                        <p>{'This Magic Brain will detect faces in your pictures. Give it a try'}</p>
                         <div className="formCont">
                             <input type="text"/>
                             <button>Detect</button>

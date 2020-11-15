@@ -4,7 +4,7 @@ import './logo.scss';
 const Logo = () => {
     return (
         <div className="logo">
-            <p>Logo</p>
+            <h1>FACE <span>FINDER</span></h1>
         </div>
     );
 }
